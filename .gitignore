@@ -172,3 +172,10 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# ReflexEngine specific
+# Include structural analysis files but exclude temporary files
+!structural_validation_report.txt
+*.tmp
+.env
+!.env.template
